@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+
+
+        <title>Julia Moller</title>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+        
+        <!-- Pattern CSS -->
+        <link href="https://unpkg.com/pattern.css" rel="stylesheet"/>
+
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        
+        <!-- Custom styles for this template -->
+        <link href="resourses/css/theme.css" rel="stylesheet" type="text/css"/>
+        <link href="resourses/css/navbar.css" rel="stylesheet" type="text/css"/>
+        <link href="resourses/css/parallax.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <!-- SIDE NAVBAR -->
+        <nav id="mySidenav" class="fixed-top col-2 d-flex align-items-center mt-5">
+            <ul>
+                <li class="nav-item">
+                    <a href="#section1" class="btn btn-secondary btn-lg font-weight-bold">
+                        <object class="icon" data="resourses/svg/home.svg" type="image/svg+xml"></object>
+                        <span class="text-white">HOME</span>
+                    </a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="#" class="btn btn-secondary btn-lg font-weight-bold">
+                        <object class="icon" data="resourses/svg/monster.svg" type="image/svg+xml"></object>
+                        <span class="text-white">LAB</span>
+                    </a>
+                </li> -->
+                <li class="nav-item">                
+                    <a href="#section2" class="btn btn-secondary btn-lg font-weight-bold">
+                        <object class="icon" data="resourses/svg/email.svg" type="image/svg+xml"></object>
+                        <span class="text-white">ABOUT</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- MOBILE MENU -->
+        <div id="mobileNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn text-warning" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#section1" class="text-primary" onclick="closeNav()">HOME</a>
+              <!-- <a href="#" class="text-primary" onclick="closeNav()">LAB</a> -->
+              <a href="#section2" class="text-primary" onclick="closeNav()">ABOUT</a>
+            </div>
+        </div>
+        <span class="hamburger text-primary p-4" onclick="openNav()">&#9776;</span>
+
+        <!-- SECTION 1 -->
+         <!-- PARALLAX -->
+        <div id="section1" class="parallax">
+            <img src="resourses/img/parallax/parallax-0.png" class="translate" data-parallax-speed="0.05"/>
+            <img src="resourses/img/parallax/parallax-1.png" class="translate" data-parallax-speed="0.1"/>
+            <img src="resourses/img/parallax/parallax-2.png" class="translate" data-parallax-speed="0.15"/>
+            <img src="resourses/img/parallax/parallax-3.png" class="translate" data-parallax-speed="0.2"/>
+            <img src="resourses/img/parallax/parallax-4.png" class="translate" data-parallax-speed="0.25"/>
+            <img src="resourses/img/parallax/parallax-5.png" class="translate" data-parallax-speed="0.3"/>
+            <img src="resourses/img/parallax/parallax-6.png" class="translate" data-parallax-speed="0.35"/>
+            <img src="resourses/img/parallax/parallax-7.png" class="translate" data-parallax-speed="0.4"/>
+            <img src="resourses/img/parallax/parallax-8.png" class="translate" data-parallax-speed="0.45"/>
+            <img src="resourses/img/parallax/parallax-9.png" class="translate" data-parallax-speed="0.5"/>
+            <img src="resourses/img/parallax/parallax-10.png" class="translate" data-parallax-speed="0"/>
+        </div>
+        <!-- PRESENTATION -->
+        <div class="container mb-5 mb-lg-0">
+            <div class="col-lg-4 presentation">
+                <h1 class="display-1 text-info font-weight-bold">Hi! I'm Julia</h1>
+                <h4 class="text-info mb-4">
+                    A Graphics & Web Designer living and creating in Edinburgh, Scotland.
+                </h4>
+                <div class="wrap">
+                    <a class="btn btn-outline-success p-lg-auto mb-4 m-lg-0" target="_blank" rel="noopener noreferrer" href="https://github.com/JuliaMoller">
+                        <object data="resourses/svg/github.svg" class="icon-svg m-lg-4 d-lg-block py-lg-1" type="image/svg+xml"></object>
+                        <h4 class="ml-3 text-white d-inline d-lg-none">Github</h4>
+                    </a>
+                    <a class="btn btn-outline-success p-lg-auto mb-4 m-lg-0" target="_blank" rel="noopener noreferrer" href="https://dribbble.com/JuliaMoller">
+                        <object data="resourses/svg/dribble.svg" class="icon-svg m-lg-4 d-lg-block py-lg-1" type="image/svg+xml"></object>
+                        <h4 class="ml-3 text-white d-inline d-lg-none">Dribbble</h4>
+                    </a>
+                    <a class="btn btn-outline-success p-lg-auto mb-3 m-lg-0" target="_blank" rel="noopener noreferrer" href="https://www.behance.net/juliadmollb56a">
+                        <object data="resourses/svg/behance.svg" class="icon-svg m-lg-4 d-lg-block py-lg-1" type="image/svg+xml"></object>
+                        <h4 class="ml-3 text-white d-inline d-lg-none">Behance</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 2 -->
+        <div id="section2" class="pattern-cross-dots-xl bg-success text-secondary py-5">
+            <div class="container col-lg-8">
+                <div class="row">
+                    <!-- ABOUT -->
+                    <div class="col-lg-6 my-2">
+                        <div class="image-cropper mb-5 mx-auto d-block">
+                            <img src="resourses/img/avatar/avatar.jpg"/>
+                        </div>
+                        <p class="text-info">
+                            Experienced designer with a knack in the web. I designed and implemented this page to show my skills in illustration, responsive HTML and CSS.
+                            I am open to work so get in touch with me.
+                        </p>
+                        <a class="btn btn-primary btn-sm my-5" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mollerjulia/">
+                            <object data="resourses/svg/linkedin.svg" class="svg" type="image/svg+xml"></object>
+                        </a>
+                    </div>
+                    <!-- CONTACT -->
+                    <div class="col-lg-6 my-2">
+                        <div style="width: 100%; margin: 0 auto;">
+                            <h2 class="text-info mb-5"> CONTACT </h2>
+                            <form action="https://formspree.io/f/xjvpjrop" method="POST">
+                                <div class="form-group">
+                                    <input name="name" class="form-control" type="text" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input name="_replyto" class="form-control" type="email" placeholder="E-mail" required>
+                                </div>
+                                <div class="form-group">
+                                    <input name="_subject" class="form-control" type="text" placeholder="Subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" rows="10">Say Hi!</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-lg btn-primary btn-block">Submit!</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- Custom js-->
+        <script src="resourses/js/menu.js"></script>
+        <script src="resourses/js/parallax.js"></script>
+    </body>
+</html>

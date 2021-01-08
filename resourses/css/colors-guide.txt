@@ -1,0 +1,9 @@
+/* colors */
+
+Primary: #2ED67A;
+Secondary: #D7ABFF;
+Success: #5E17A6;
+Info: #19FDEF;
+Warning: #FA650A;
+Dark: #1D1D24;
+Light #EAE6E6;
