@@ -119,7 +119,7 @@ html {
     transform: rotateY(0deg) rotate(-45deg);
   }
 .image-cropper img {
-    position: fixed;
+    position: absolute;
     top: 24px;
     right: -85px;
     display: inline;
