@@ -31,7 +31,7 @@ html {
     border: 0;
 }
 .btn-success {
-    background-color: #5E17A6 !important;
+    background-color: #430c7a !important;
     border: 0;
 }
 .btn-warning {
@@ -53,7 +53,7 @@ html {
     background-color: #5E17A6 !important;
 }
 .btn-outline-success:focus {
-    background-color: #8747E2 !important;
+    background-color: #b37dff !important;
     box-shadow: none;
     transition: 1s;
 }
@@ -63,7 +63,7 @@ html {
     color: #2ED67A !important;
 }
 .text-secondary {
-    color: #7826c9 !important;
+    color: #501988 !important;
 }
 .text-info {
     color: #19FDEF !important;
@@ -92,7 +92,7 @@ html {
     background-color: #19FDEF !important;
 }
 .bg-success {
-    background-color: #5E17A6 !important;
+    background-color: #3a0b68 !important;
 }
 .bg-warning {
     background-color: #FA650A !important;
@@ -136,6 +136,10 @@ html {
     filter: invert(95%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
     width: 3em;
     pointer-events: none;
+}
+
+.linkedin {
+    filter: invert(5%) !important;
 }
 
 .icon-svg {
